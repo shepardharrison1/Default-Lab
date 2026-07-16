@@ -31,11 +31,27 @@ Therefore, the recommended path is not to build a generic marketplace, training-
 
 ## Map to the research pack
 
-- `01-product-definition.md` defines the exact product, exclusions, ten-step loop, participants, MVP, deferred components, and success metrics.
-- `02-failure-node-taxonomy.md` separates data-related failures from non-data failures and estimates what portion of serious coding-agent failures are actually buyable-data-resolvable.
-- Planned competitive work should focus on Context7/Upstash, LangSmith, Langfuse, Cloudflare/Human Native, Snowflake Cortex Knowledge Extensions, coding-agent MCP surfaces, vertical API vendors such as Optum, and per-query data vendors such as OpenSanctions.
-- Planned architecture/legal work should stress least-privilege retrieval, content-protection thresholds, provenance, metering, entitlement checks, and data-owner moat preservation.
-- Planned pilot work should choose a vertical-domain-rule workflow, not a public-docs workflow.
+| File | Role |
+| --- | --- |
+| `01-product-definition.md` | Product, exclusions, ten-step loop, MVP, success metrics |
+| `02-failure-node-taxonomy.md` | Data vs non-data failures; resolvability estimate |
+| `03-competitive-landscape.md` + `competitor-matrix.csv` | Competitors across 17 categories |
+| `04-vertical-ranking.md` + `vertical-ranking.csv` | ≥20 verticals scored for coding/automation workflows |
+| `05-buyer-and-agent-targets.md` | Buyer / coding-agent targets |
+| `06-data-owner-targets.md` | Rights-holder targets |
+| `07-data-moat-preservation.md` | Whether controlled agent access preserves supplier moats |
+| `08-technical-architecture.md` | MVP/production architecture |
+| `09-licensing-and-legal.md` | Licensing and legal risks (non-counsel) |
+| `10-business-model-and-economics.md` + `unit-economics.csv` | Pricing and unit economics |
+| `11-moat-scorecard.md` | Moat classifications |
+| `12-commoditization-threats.md` | Platform internalization analysis |
+| `13-first-pilot.md` | Narrow falsifiable pilot |
+| `14-go-to-market.md` | 30d–24m GTM |
+| `15-failure-mode-register.md` + `failure-modes.csv` | Failure modes |
+| `16-final-investment-judgment.md` | Decisive investment Q&A |
+| `sources.md` | Consolidated source register |
+
+Related prior pack: `research/agent-data-exchange/` (broader agent-data marketplace; 2026-07-15).
 
 ## Evidence label summary
 
